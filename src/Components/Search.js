@@ -1,4 +1,4 @@
-import Button from './Button'
+import ButtonSearch from './ButtonSearch';
 import search from './../Components/Assets/icons/search.png';
 
 const Search = () => {
@@ -13,7 +13,7 @@ const Search = () => {
                placeholder="Search events" 
                aria-label="Search"
             />
-            <Button 
+            <ButtonSearch 
                name="Search" 
                style={
                   {
