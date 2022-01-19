@@ -17,10 +17,10 @@ const Profile = () => {
             </p>
          </div>
          <div className="sign-out-btn">
-         <button type="button" className="btn-sign-out btn">
-            <img className="btn-icon" src={logOut} alt="" />
-            <span className="sign-out">Sign Out</span>
-         </button>
+            <button type="button" className="btn-sign-out btn">
+               <img className="btn-icon" src={logOut} alt="" />
+               <span className="sign-out">Sign Out</span>
+            </button>
          </div>
       </div>
    )

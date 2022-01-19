@@ -21,14 +21,14 @@ const Footer = () => {
                         Follow Us on
                      </div>
                      <div className="social-media d-flex justify-content-between">
-                        <img src={FacebookRound} alt="Facebook" />
-                        <img src={Instagram} alt="Instagram" />
-                        <img src={Twitter} alt="Twitter" />
-                        <img src={Youtube} alt="Youtube" />
+                        <a href="#"><img src={FacebookRound} alt="Facebook"/></a>
+                        <a href="#"><img src={Instagram} alt="Instagram"/></a>
+                        <a href="#"><img src={Twitter} alt="Twitter"/></a>
+                        <a href="#"><img src={Youtube} alt="Youtube"/></a>
                      </div>
                   </div>
                </div>
-               <div className="footer-right col-8 d-flex flex-row justify-content-evenly text-start">
+               <div className="footer-right col-8 d-flex flex-row text-start mx-auto">
                   <div className="links">
                      <div>
                         Links
@@ -69,10 +69,10 @@ const Footer = () => {
                </div>
             </div>
             <div className="copy-right row align-items-start">
-               <div className="col-6 text-start">
+               <div className="copy-right-capt col-6 text-start">
                   ⓒ 2022 SeeEvent All rights reserved.
                </div>
-               <div className="col-6 text-end">
+               <div className="terms col-6">
                   <div className="terms-cond">
                         <a href="#">Privacy Policy</a>
                         <a href="#">Terms of Service</a>

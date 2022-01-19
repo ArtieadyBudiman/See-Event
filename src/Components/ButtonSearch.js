@@ -1,9 +1,9 @@
-
+import './ButtonSearch.css';
 
 const ButtonSearch = (props) => {
    return(
       <div>
-         <button type="button" className="btn" style={props.style}>
+         <button type="button" className="btn-src btn" >
             {props.name}
          </button>
       </div>
@@ -11,3 +11,5 @@ const ButtonSearch = (props) => {
 };
 
 export default ButtonSearch;
+
+// style={props.style}

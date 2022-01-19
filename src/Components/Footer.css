@@ -2,7 +2,7 @@
    background-color: #214457;
 }
 .footer-content{
-   margin: 49px 108px 48px 108px;
+   margin: 49px 100px 48px 100px;
 }
 .footer-caption{
    margin: 16px 0px 32px 0px;
@@ -19,6 +19,9 @@
    font-size:16px;
    font-weight:700;
    color:#F8F8F8;
+}
+.footer-right{
+   justify-content:space-evenly;
 }
 .links, .top-categories, .contact-us{
    font-size:18px;
@@ -57,4 +60,74 @@ ul li a{
    margin-left: 24px;
    text-decoration: none;
    color:#F8F8F8;
+   text-align: right;
+}
+@media(max-width:768px){
+   .footer-content{
+      margin: 15px 20px 15px 20px;
+   }
+   .footer-left{
+      width:30%
+   }
+   .footer-right{
+      width:70%;
+   }
+   .footer-logo img{
+      width: 80%;
+   }
+   .links, .top-categories, .contact-us{
+      font-size:16px;
+      font-weight:400;
+   }
+   .footer-right{
+   text-align:right;
+   }
+   .footer-caption, ul li a, .address p{
+      font-size:12px;
+   }
+   .copy-right{
+      margin:0 20px 15px 20px;
+      font-size: 12px;
+   }
+}
+@media(max-width:425px){
+   .footer-content{
+      margin: 15px 20px 15px 20px;
+   }
+   .footer-left, .footer-right{
+      width:100%;
+      padding:0;
+   }
+   .links, .top-categories, .contact-us{
+      font-size:14px;
+      font-weight:400;
+   }
+   .footer-right{
+      margin-top: 25px;
+      justify-content: space-between;
+   }
+   .footer-caption, ul li a, .address p{
+      font-size:10px;
+   }
+   .follow-us{
+      font-size:14px;
+      font-weight:400;
+   }
+   .copy-right{
+      margin:0 15px 20px 15px;
+      font-size: 10px;
+   }
+   .footer-content{
+      flex-direction: column;
+   }
+   .footer-left, .footer-right{
+      width:100%;
+   }
+   .copy-right-capt, .terms{
+      padding:0;
+   }
+   .terms-cond a{
+      text-align: left;
+      margin-left: 7px;
+   }
 }
