@@ -29,26 +29,6 @@ const Comment = () => {
                   Pucing pala belbi
                </div>
             </div>
-            <div className="comment-content">
-               <div className="profile-user d-flex flex-row">
-                  <div className="img-wrapper ">
-                     <div className="img-user">
-                     <img src={photo} alt="profil" />
-                     </div>
-                  </div>
-                  <div className="profile-userName">
-                     <div className="user-name">
-                        Artieady
-                     </div>
-                     <div className="post-date">
-                        2 hours ago
-                     </div>
-                  </div>
-               </div>
-               <div className="comment-caption">
-                  Pucing pala belbi
-               </div>
-            </div>
          </div>
          <div className="comment-area d-flex flex-column">
             <div className="comment-input">
