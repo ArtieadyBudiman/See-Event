@@ -1,12 +1,14 @@
-import styles from './DesignEvent.module.css'
+import styles from './AttendEvent.module.css';
+import Share from "./Assets/icons/Icon Share.png";
+import Save from "./Assets/icons/Icon Save.png";
 
-function DesignEvent() {
+function attendEvent() {
     return (
         <div className={styles.main_container}>
             <div className={styles.wrapper_container}>
                 <div className={styles.header_container}>
                         <h3 className={styles.design_header}>
-                            Attend an event starting soon
+                            Design Event
                         </h3>
                         <a className={styles.more_event} href="" target={"_blank"}>More Events</a>
                 </div>
@@ -17,17 +19,27 @@ function DesignEvent() {
                         <div className={styles.event_container}>
                             <div className={styles.event_top}>
                                 <div className={styles.category_container}>
-                                    <button className={styles.event_category}>K-Pop</button>
+                                    <div className={styles.event_category}>K-Pop</div>
                                 </div>
                                 <div className={styles.event_button}>
-                                        <button>S</button>
-                                        <button>B</button>
+                                        <a>
+                                            <img src={Save} alt='save'/>
+                                        </a>
+                                        <a>
+                                            <img src={Share} alt='share'/>
+                                        </a>
                                 </div>
                             </div>
                             <div className={styles.event_bot}>
-                                <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
-                                <span className={styles.event_title} >How to become a loyal fans of Momo</span>
-                                <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                <div className={styles.event_time_container}>
+                                    <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
+                                </div>
+                                <div className={styles.event_title_container}>
+                                    <span className={styles.event_title} >How to become a loyal fans of Momo</span>
+                                </div>
+                                <div className={styles.event_author_container}>
+                                    <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -37,17 +49,27 @@ function DesignEvent() {
                                 <div className={styles.event_container}>
                                     <div className={styles.event_top}>
                                         <div className={styles.category_container}>
-                                            <button className={styles.event_category}>K-Pop</button>
+                                            <div className={styles.event_category}>K-Pop</div>
                                         </div>
                                         <div className={styles.event_button}>
-                                                <button>S</button>
-                                                <button>B</button>
+                                            <a>
+                                                <img src={Save} alt='save'/>
+                                            </a>
+                                            <a>
+                                                <img src={Share} alt='share'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={styles.event_bot}>
-                                        <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
-                                        <span className={styles.event_title} >How to become a loyal fans of Momo</span>
-                                        <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        <div className={styles.event_time_container}>
+                                            <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
+                                        </div>
+                                        <div className={styles.event_title_container}>
+                                            <span className={styles.event_title} >How to become a loyal fans of Momo</span>
+                                        </div>
+                                        <div className={styles.event_author_container}>
+                                            <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -57,17 +79,27 @@ function DesignEvent() {
                                 <div className={styles.event_container}>
                                     <div className={styles.event_top}>
                                         <div className={styles.category_container}>
-                                            <button className={styles.event_category}>K-Pop</button>
+                                            <div className={styles.event_category}>K-Pop</div>
                                         </div>
                                         <div className={styles.event_button}>
-                                                <button>S</button>
-                                                <button>B</button>
+                                            <a>
+                                                <img src={Save} alt='save'/>
+                                            </a>
+                                            <a>
+                                                <img src={Share} alt='share'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={styles.event_bot}>
-                                        <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
-                                        <span className={styles.event_title} >How to become a loyal fans of Momo</span>
-                                        <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        <div className={styles.event_time_container}>
+                                            <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
+                                        </div>
+                                        <div className={styles.event_author_container}>
+                                        <div className={styles.event_title_container}>
+                                            <span className={styles.event_title} >How to become a loyal fans of Momo</span>
+                                        </div>
+                                            <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -77,23 +109,33 @@ function DesignEvent() {
                                 <div className={styles.event_container}>
                                     <div className={styles.event_top}>
                                         <div className={styles.category_container}>
-                                            <button className={styles.event_category}>K-Pop</button>
+                                            <div className={styles.event_category}>K-Pop</div>
                                         </div>
                                         <div className={styles.event_button}>
-                                                <button>S</button>
-                                                <button>B</button>
+                                            <a>
+                                                <img src={Save} alt='save'/>
+                                            </a>
+                                            <a>
+                                                <img src={Share} alt='share'/>
+                                            </a>
                                         </div>
                                     </div>
                                     <div className={styles.event_bot}>
-                                        <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
-                                        <span className={styles.event_title} >How to become a loyal fans of Momo</span>
-                                        <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        <div className={styles.event_time_container}>
+                                            <span className={styles.event_time}>SUN, 24 @ 1.15 AM WIB </span>
+                                        </div>
+                                        <div className={styles.event_title_container}>
+                                            <span className={styles.event_title} >How to become a loyal fans of Momo</span>
+                                        </div>
+                                        <div className={styles.event_author_container}>
+                                            <span className={styles.event_author}>by Hamdani Abdullah</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                </div>
+                    </div>
             </div>
         </div>
     )
 }
-export default DesignEvent;
+export default attendEvent;

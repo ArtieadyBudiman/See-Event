@@ -6,7 +6,7 @@ export default function ErrorPage() {
             <h1 className={styles.error_h1}>404</h1>
             <p className={styles.error_text}>Oops! Something is wrong.</p>
             <a className={styles.error_button} href="#">
-                ....Go back ? Click here!
+                We Cannot find the Destination. Go back?
             </a>
         </div>
     )
