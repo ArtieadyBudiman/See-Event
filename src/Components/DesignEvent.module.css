@@ -17,15 +17,15 @@
   display: flex;
   flex-flow: row wrap;
   justify-content: space-between;
-  margin-left: 6%;
-  margin-right: 6%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 .content_container {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 .design_header {
   display: flex;
@@ -49,8 +49,7 @@
   margin-bottom: 15px;
 }
 .card_container {
-  width: 288px;
-  height: 380x;
+  width: 23%;
   display: flex;
   flex-direction: column;
 }
@@ -60,7 +59,8 @@
   cursor: pointer;
 }
 .event_image {
-  width: 288px;
+  object-fit: cover;
+  width: 100%;
   height: 200px;
   border-radius: 1%;
 }
@@ -74,7 +74,6 @@
   flex-direction: column;
 }
 .event_top {
-  width: 272px;
   height: 24px;
   margin-left: 8px;
   margin-top: 16px;

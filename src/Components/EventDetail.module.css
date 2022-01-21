@@ -1,11 +1,11 @@
 .main_container {
+  height: auto;
   width: 100vw;
 }
 .wrapper_container {
   width: 70%;
   margin-left: auto;
   margin-right: auto;
-  /* margin-bottom: 5%; */
   margin-top: 4%;
 }
 .top_section_container {
@@ -72,7 +72,7 @@
 }
 .profile_container {
   display: flex;
-  margin-top: 5%;
+  margin-top: 10%;
   margin-bottom: 5%;
   gap: 10px;
 }
