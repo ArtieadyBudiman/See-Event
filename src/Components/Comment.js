@@ -1,45 +1,45 @@
 import MessageCircle from './Assets/icons/MessageCircle.png';
-import photo from './photo.jpg'
-import './Comment.css'
+import photo from './photo.jpg';
+import style from './Comment.module.css';
 
 const Comment = () => {
    return (
-      <div className="comment-section p-2">
-         <div className="section-title">
+      <div className={`${style.commentSection} p-2`}>
+         <div className={style.sectionTitle}>
             <span>Comments</span>
          </div>
-         <div className="comment-wrapper">
+         <div className={style.commentWrapper}>
             <div className="comment-content">
                <div className="profile-user d-flex flex-row">
-                  <div className="img-wrapper ">
-                     <div className="img-user">
-                     <img src={photo} alt="profil" />
+                  <div className={style.imgWrapper}>
+                     <div className={style.imgUser}>
+                        <img src={photo} alt="profil" />
                      </div>
                   </div>
-                  <div className="profile-userName">
-                     <div className="user-name">
+                  <div className={style.profilUserName}>
+                     <div className={style.userName}>
                         Artieady
                      </div>
-                     <div className="post-date">
+                     <div className={style.postDate}>
                         2 hours ago
                      </div>
                   </div>
                </div>
-               <div className="comment-caption">
+               <div className={style.commentCaption}>
                   Pucing pala belbi
                </div>
             </div>
          </div>
-         <div className="comment-area d-flex flex-column">
+         <div className={`${style.commentArea} d-flex flex-column`}>
             <div className="comment-input">
                <div class="mb-3">
-                  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3" ></textarea>
+                  <textarea className={`${style.formControl} form-control`} id="exampleFormControlTextarea1" rows="3" ></textarea>
                </div>
             </div>
             <div className="comment-button text-end">
-               <button type="button" className="btn-comment btn">
+               <button type="button" className={`${style.btnComment} btn`}>
                   <img className="btn-icon" src={MessageCircle} alt="" />
-                  <span className="sign-out">Submit</span>
+                  <span className={style.signOut}>Submit</span>
                </button>
             </div>
          </div>

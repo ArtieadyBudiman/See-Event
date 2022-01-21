@@ -1,9 +1,9 @@
 .footer{
    background-color: #214457;
+   padding: 49px 80px 48px 80px;
 }
-.footer-content{
-   margin: 49px 100px 48px 100px;
-}
+/* .footer-content{
+} */
 .footer-caption{
    margin: 16px 0px 32px 0px;
    font-size:16px;

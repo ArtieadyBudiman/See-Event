@@ -1,7 +1,7 @@
 import search from './../Components/Assets/icons/search.png';
-import style from './Search.module.css'
+import style from './SearchBar.module.css'
 
-const Search = () => {
+const SearchBar = () => {
    return(
       <div className={`${style.search} d-flex align-items-center p-2 bg-light`}>
          
@@ -10,22 +10,17 @@ const Search = () => {
             </div>
             <div className={style.inputWrapper}>
                <form className="form-input d-flex align-items-center">
-                  <input 
+                  <input
                      className={`${style.input} form-control mx-2 px-0 bg-light`} 
+                     style={{border:"none" }}
                      type="search" 
                      placeholder="Search events" 
                      aria-label="Search"
                />
                </form>
             </div>
-            <div className={`${style.buttonWrapper} d-flex justify-content-end`}>
-               <button type="button" className={style.buttonSrc} >
-                  <span>Search</span>
-               </button>
-            </div>
-         
       </div>
    )
 }
 
-export default Search;
+export default SearchBar
