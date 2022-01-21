@@ -1,25 +1,25 @@
 import logOut from './Assets/icons/logOut.png';
 import photo from './photo.jpg'
-import './Profile.css'
+import style from './Profile.module.css'
 
 const Profile = () => {
    return(
       <div className="d-flex flex-column p-2 bd-highlight">
          <div className="text-center">
-            <img className="img-profile" src={photo} alt="..."/>
+            <img className={style.imgProfile} src={photo} alt="..."/>
          </div>
-         <div className="profile-info">
-            <h3 className="profile-name">
+         <div className="profileInfo">
+            <h3 className={style.profileName}>
                Pratur Anahata Pratama
             </h3>
-            <p className="profile-email">
+            <p className={style.profileEmail}>
                praturanhata45@gmail.com
             </p>
          </div>
-         <div className="sign-out-btn">
-            <button type="button" className="btn-sign-out btn">
-               <img className="btn-icon" src={logOut} alt="" />
-               <span className="sign-out">Sign Out</span>
+         <div className={style.signOutBtn}>
+            <button type="button" className={`${style.btnSignOut} btn`}>
+               <img className={style.btnIcon} src={logOut} alt="" />
+               <span className={style.signOut}>Sign Out</span>
             </button>
          </div>
       </div>
