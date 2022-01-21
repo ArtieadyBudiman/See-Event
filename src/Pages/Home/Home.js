@@ -1,5 +1,5 @@
 import bgImg from "./Assets/img/banner.png";
-import Search from "./ShareComponent/Search";
+import Search from "../../Components/ShareComponent/Search";
 import styles from "./index.module.css";
 
 export default function Home() {
