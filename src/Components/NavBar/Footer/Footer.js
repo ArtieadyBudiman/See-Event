@@ -3,10 +3,10 @@
 // import Instagram from "./Assets/icons/Instagram.png";
 // import Twitter from "./Assets/icons/Twitter.png";
 // import Youtube from "./Assets/icons/Youtube.png";
-// import "./Footer.css"
 
 // const Footer = () => {
 //    return(
+//        <>
 //          <div className="footer d-flex flex-column p-2">
 //             <div className="footer-content row">
 //                <div className="footer-left text-start col-4">
@@ -131,7 +131,8 @@
 //         </div>
 //       </div>
 //     </div>
-//   );
-// };
+//     </>
+//     )
+// }
 
 // export default Footer;
