@@ -25,7 +25,6 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        {/* <SearchBar/> */}
         <SearchPage />
         <Routes>
             <Route path="/signUp" element={<SignUp />} />
